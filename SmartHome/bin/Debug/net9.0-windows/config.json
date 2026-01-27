@@ -1,0 +1,4 @@
+{
+  "lightsJsonPath": "..\\net9.0\\Data\\lights.json",
+  "pollIntervalMs": 1000
+}
