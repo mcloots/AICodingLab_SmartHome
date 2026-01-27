@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "woonkamer",
+    "is_on": false
+  },
+  {
+    "id": 2,
+    "name": "tuin",
+    "is_on": true
+  },
+  {
+    "id": 3,
+    "name": "keukentafel",
+    "is_on": false
+  }
+]
