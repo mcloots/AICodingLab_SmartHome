@@ -1,4 +1,5 @@
-﻿/*
+﻿
+/*
 using Microsoft.Extensions.Configuration;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
@@ -20,6 +21,9 @@ builder.AddOpenAIChatCompletion(
 var kernel = builder.Build();
 
 var chat = kernel.GetRequiredService<IChatCompletionService>();
+
+var promptSettings = new OpenAIPromptExecutionSettings
+{ FunctionChoiceBehavior = FunctionChoiceBehavior.Auto() };
 */
 
 Console.WriteLine("Hello World!");
